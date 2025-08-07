@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div id="container">
+      <h1><span>Lo</span>gin</h1>
+      <div class="wrap">
+        <form>
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <input class="sub" type="submit" value="Login">
+            <div class="forgot"><a href="">Forgot password?</a></div><br>
+            <div class="noacc"><a href="{% url 'signup' %}">Don't Have an Account yet?</a></div>
+        </form>
+        <p>or connect with Social Media</p>
+        <button class="twitter"><span><i class="fa fa-twitter"></i></span>  Sign in With Twitter</button><br>
+        <button class="facebook"><span><i class="fa fa-facebook"></i></span>  Sign in With Facebook</button>
+      </div>
+    </div>
+
+{% endblock content %}

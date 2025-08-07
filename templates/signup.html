@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div id="container1">
+      <h1><span>Si</span>gnUp</h1>
+      <div class="wrap">
+        <form>
+            <input type="text" placeholder="Firstname"><br>
+            <input type="text" placeholder="Lastname"><br>
+            <input type="text" placeholder="Username"><br>
+            <input type="text" placeholder="example@gmail.com"><br>
+            <input type="password" placeholder="Password"><br>
+            <!-- <a href="{% url 'login' %}"><input type="submit" value="Create Account"></a> -->
+             <div class="sub">
+                <a href="{% url 'login' %}">Create Account</a>
+             </div>
+        </form>
+        <p>or connect with Social Media</p>
+        <button class="twitter"><span><i class="fa fa-twitter"></i></span>  Sign up With Twitter</button><br>
+        <button class="facebook"><span><i class="fa fa-facebook"></i></span>  Sign up With Facebook</button>
+      </div>
+    </div>
+
+{% endblock content %}

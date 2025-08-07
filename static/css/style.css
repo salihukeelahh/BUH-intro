@@ -1,0 +1,88 @@
+body{
+    background-color: crimson;
+}
+#container{
+    background-color: white;
+    height: 400px;
+    width: 20%;
+    margin-left: 550px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(5, 5, 5, 0.1);
+}
+#container1{
+    background-color: white;
+    height: 470px;
+    width: 20%;
+    margin-left: 550px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(5, 5, 5, 0.1);
+}
+h1{
+    margin-left: 20px;
+    padding-top: 15px;
+}
+h1 span{
+    text-decoration: underline crimson;
+}
+form{
+    margin-left: 15px;
+}
+input[type='text'],input[type='password']{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 86%;
+    padding: 10px;
+}
+.wrap{
+    margin: 0 auto;
+}
+.sub{
+    margin-top: 25px;
+    padding: 8px;
+    width: 90%;
+    background-color: crimson;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.sub a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+.twitter{
+    padding: 8px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    width: 91%;
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.facebook{
+    padding: 8px;
+    border: none;
+    margin-left: 12px;
+    width: 91%;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-twitter, .fa-facebook{
+    color: crimson;
+}
+.forgot{
+    float: right;
+}
+.noacc{
+    margin-top: 25px;
+}
